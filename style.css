@@ -1,0 +1,14 @@
+html {
+  background-image: url(https://media4.giphy.com/media/NEeYlAsXNqrfi/giphy.gif);
+  background-size: cover;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+div, li {
+  text-align: center;
+  list-style-type: none;
+}
