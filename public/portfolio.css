@@ -3,6 +3,16 @@ html {
   background-size: cover;
 }
 
+div p {
+  color: white;
+}
+
+h3 {
+  color: grey;
+}
+
+
+
 img {
     display: block;
     margin: auto;
