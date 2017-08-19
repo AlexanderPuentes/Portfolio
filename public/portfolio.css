@@ -1,7 +1,3 @@
-html {
-  background-image: url();
-  background-size: cover;
-}
 
 div p {
   color: orange;
@@ -10,8 +6,6 @@ div p {
 h3 {
   color: navy;
 }
-
-
 
 img {
     display: block;
