@@ -1,12 +1,3 @@
-
-div p {
-  color: orange;
-}
-
-h3 {
-  color: navy;
-}
-
 img {
     display: block;
     margin: auto;
@@ -18,5 +9,24 @@ img {
 }
 
 .profile-name {
-  font-size: 36px;
+  text-align: center;
+}
+
+.profile-name, h1 {
+  font-size: 100px;
+}
+
+.fadein {
+  animation: fadeInDown 3s;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
