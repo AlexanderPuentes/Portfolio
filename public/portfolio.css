@@ -12,7 +12,11 @@ img {
     margin: auto;
 }
 
-div, li {
+.bio, li {
   text-align: center;
   list-style-type: none;
+}
+
+.profile-name {
+  font-size: 36px;
 }
