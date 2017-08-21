@@ -1,3 +1,7 @@
+html {
+  #e9ebee
+}
+
 img {
     display: block;
     margin: auto;
@@ -45,6 +49,7 @@ img {
 }
 
 .main {
+  background-image: url(http://cnsoup.com/image-download/708036280.html);
   background-color: #798d8f;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -53,6 +58,10 @@ img {
 .bio {
   padding-left: 25%;
   padding-right: 25%;
+}
+
+.carousel-inner {
+  padding-bottom: 2%;
 }
 
 .carousel-inner img {
@@ -92,4 +101,16 @@ img {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+}
+
+.media {
+  background-color: #333;
+}
+
+.container {
+  color: white;
+}
+
+.container-fluid {
+  color: white;
 }
