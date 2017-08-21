@@ -34,8 +34,18 @@ img {
   }
 }
 
+.left.carousel-control.demo {
+  background-image: none;
+  color: red;
+}
+
+.right.carousel-control.demo {
+  background-image: none;
+  color: red;
+}
+
 .main {
-  background-color: #007bff;
+  background-color: #8fabca;
   padding-top: 5%;
   padding-bottom: 5%;
 }
@@ -52,4 +62,9 @@ img {
 .carousel-inner video {
   width: 100%;
   max-height: 350px;
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: 25px;
 }
