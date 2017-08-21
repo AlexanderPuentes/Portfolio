@@ -78,20 +78,46 @@ img {
   border-radius: 25px;
 }
 
+.contact {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 /* Twitter */
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55ACEE;
+  color: white;
+  transition: all 0.7s ease-in-out 0s;
+}
+
+.fa-twitter:hover {
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 0.7s ease-in-out 0s;
 }
 
 .fa-linkedin {
   background-color: #0077B5;
   color: white;
+  transition: all 0.7s ease-in-out 0s;
+}
+
+.fa-linkedin:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.7s ease-in-out 0s;
 }
 
 .fa-github {
   background-color: black;
   color: white;
+  transition: all 0.7s ease-in-out 0s;
+}
+
+.fa-github:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.7s ease-in-out 0s;
 }
 
 .fa {
@@ -113,4 +139,5 @@ img {
 
 .container-fluid {
   color: white;
+  padding-bottom: 1%;
 }
