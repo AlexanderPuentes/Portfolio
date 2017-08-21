@@ -1,5 +1,5 @@
 # Portfolio
 
-My portfolio encompasses examples of the languages and tech that I am familir with, alongside short biography.
-Links to my media such as LinkedIn and other professional/personal sites.
+My portfolio encompasses examples of the languages and tech that I am familiar with, but not all languages that I am proficient in.
+There is a short biography of myself as well as links to my media such as LinkedIn and other professional/personal sites.
 
