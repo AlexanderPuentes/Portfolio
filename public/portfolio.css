@@ -45,7 +45,11 @@ img {
   padding-right: 25%;
 }
 
-.tech {
-  padding-top: 5%;
-  padding-bottom: 5%;
+.carousel-inner img {
+  max-height: 350px;
+}
+
+.carousel-inner video {
+  width: 100%;
+  max-height: 350px;
 }
