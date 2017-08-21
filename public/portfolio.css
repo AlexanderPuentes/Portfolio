@@ -1,5 +1,5 @@
-html {
-  #e9ebee
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 img {
@@ -85,7 +85,7 @@ img {
 
 /* Twitter */
 .fa-twitter {
-  background: #55ACEE;
+  background: #3498db;
   color: white;
   transition: all 0.7s ease-in-out 0s;
 }
