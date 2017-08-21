@@ -36,12 +36,12 @@ img {
 
 .left.carousel-control.demo {
   background-image: none;
-  color: red;
+  color: #6787ab;
 }
 
 .right.carousel-control.demo {
   background-image: none;
-  color: red;
+  color: #6787ab;
 }
 
 .main {
@@ -67,4 +67,19 @@ img {
 .btn {
   border: 2px solid;
   border-radius: 25px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 5%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
 }
