@@ -38,18 +38,8 @@ img {
   }
 }
 
-.left.carousel-control.demo {
-  background-image: none;
-  color: #6787ab;
-}
-
-.right.carousel-control.demo {
-  background-image: none;
-  color: #6787ab;
-}
-
 .main {
-  background-image: url(images/team2.jpg);
+  background-image: url(images/nlights.jpg);
   background-size: cover;
   color: white;
 }
@@ -91,6 +81,7 @@ img {
 }
 
 .nav-pills.work {
+  padding-left: 38%;
   text-align: center;
 }
 
