@@ -101,44 +101,53 @@ img {
 }
 
 /* Twitter */
-.fa-twitter {
-  background: #3498db;
+.twitter {
+  background-image: url(images/twitter.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background: #3498db;*/
   color: white;
   transition: all 0.7s ease-in-out 0s;
 }
 
-.fa-twitter:hover {
+.twitter:hover {
   cursor: default;
   transform: rotate(360deg);
   transition: all 0.7s ease-in-out 0s;
 }
 
-.fa-linkedin {
-  background-color: #0077B5;
+.linkedin {
+  background-image: url(images/linkedin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-color: #0077B5;*/
   color: white;
   transition: all 0.7s ease-in-out 0s;
 }
 
-.fa-linkedin:hover {
+.linkedin:hover {
   cursor: default;
   transform: rotate(360deg);
   transition: all 0.7s ease-in-out 0s;
 }
 
-.fa-github {
-  background-color: black;
+.github {
+  background-image: url(images/Github.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  /*background-color: black;*/
   color: white;
   transition: all 0.7s ease-in-out 0s;
 }
 
-.fa-github:hover {
+.github:hover {
   cursor: default;
   transform: rotate(360deg);
   transition: all 0.7s ease-in-out 0s;
 }
 
 .fa {
-  padding: 20px;
+  padding: 3%;
   font-size: 30px;
   width: 6%;
   text-align: center;
