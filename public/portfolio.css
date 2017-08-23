@@ -1,10 +1,14 @@
+
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 img {
-  display: block;
-  margin: auto;
+  /*display: block;*/
+  /*margin: auto;*/
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .bio, li {
@@ -81,7 +85,7 @@ img {
 }
 
 .nav-pills.work {
-  padding-left: 38%;
+  padding-left: 34%;
   text-align: center;
 }
 
