@@ -3,9 +3,6 @@ body {
 }
 
 img {
-  /*display: block;*/
-  /*margin: auto;*/
-  /*max-width: 125px;*/
   max-height: 125px;
 }
 
@@ -68,43 +65,6 @@ img {
   padding-right: 25%;
 }
 
-/*.tech img {
-  max-width: 20%;
-}*/
-/*
-.backend {
-  background-color: #cbabc3
-}
-
-.backend img {
-  min-width: 20%;
-}
-
-.frontend {
-  background-color: #0070c9;
-}
-
-.frontend img {
-  min-width: 20%;
-}
-
-.organization {
-  background-color: #233333;
-}
-
-.organization img {
-  background-position: center;
-}
-
-.communication {
-  background-color: #54433c;
-  height: 291px;
-}
-
-.communication img {
-  background-position: center;
-}*/
-
 .demos {
   text-align: center;
 }
@@ -119,7 +79,8 @@ img {
 }
 
 #exTab3 .nav-pills > li > a {
-  border: 2px solid;
+  /*border: 2px solid;*/
+  /*border-color: inherit;*/
   border-radius: 25px;
 }
 
@@ -135,8 +96,12 @@ img {
 }
 
 .btn {
-  border: 2px solid;
+  /*border: 2px solid;*/
   border-radius: 25px;
+}
+
+.btn.btn-default {
+  color: #2c3e50;
 }
 
 .contact {
