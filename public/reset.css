@@ -1,5 +1,31 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
 body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	text-align: center;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 img {
@@ -12,59 +38,7 @@ img {
 }
 
 .bio, li {
-  text-align: center;
   list-style-type: none;
-}
-
-.profile-name {
-  text-align: center;
-  padding-top: 20%;
-  padding-bottom: 25%;
-}
-
-#alex {
-  margin-top: 50vh !important;
-  margin-bottom: 50vh !important;
-  text-align: center !important;
-  font-size: 100px !important;
-}
-
-.profile-name, h1 {
-  font-size: 100px;
-}
-
-.fadein {
-  animation: fadeInDown 3s;
-  text-align: center;
-}
-
-@keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.main {
-  background-image: url();
-  background-size: cover;
-  color: white;
-}
-
-.team {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  top: 0px;
-  left: 0px;
-  background: rgb(44, 62, 80);
 }
 
 .bio {
@@ -72,17 +46,28 @@ img {
   padding-right: 25%;
 }
 
-.demos {
-  text-align: center;
+#alex {
+  margin-top: 45vh;
+  margin-bottom: 55vh;
+  font-size: 100px;
 }
 
-.videos {
-  margin-top: 3%;
-  margin-bottom: 3%;
+.team {
+	margin-top: 25vh;
+	margin-bottom: 25vh;
+}
+
+.video-tab {
+
+}
+
+#videos {
+	margin-top: -19%;
+	color: #d9b310;
 }
 
 #exTab3 {
-  text-align: center;
+	margin-top: -19%;
 }
 
 #exTab3 .nav-pills > li > a {
@@ -92,14 +77,15 @@ img {
 }
 
 #exTab3 .tab-content {
-  color : #2c3e50;
+  color : white;
   /*background-color: #428bca;*/
   padding : 15px 15px;
 }
 
+
+
 .nav-pills.work {
   padding-left: 34%;
-  text-align: center;
 }
 
 .btn {
@@ -111,8 +97,13 @@ img {
   color: #2c3e50;
 }
 
+#forecast {
+	font-size: 100px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
 .contact {
-  text-align: center;
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -167,21 +158,19 @@ img {
   padding: 3%;
   font-size: 30px;
   width: 6%;
-  text-align: center;
   text-decoration: none;
   border-radius: 50%;
 }
 
 .media {
-  text-align: center;
-  background-color: #333;
+  /*background-color: #333;*/
 }
 
 .container {
-  color: white;
+  color: #0b3c5d;
 }
 
 .container-fluid {
-  color: white;
+  color: #0b3c5d;
   padding-bottom: 1%;
 }
