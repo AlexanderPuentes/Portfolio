@@ -77,7 +77,7 @@ img {
 	overflow: auto;
 	top: 0px;
 	left: 0px;
-	background: rgba(11, 60, 93, 0.50);
+	background: rgba(11, 60, 93, 0.60);
 }
 
 .video-tab {
@@ -125,8 +125,20 @@ img {
 }
 
 .contact {
-  padding-top: 3%;
+  padding-top: 15%;
   padding-bottom: 3%;
+}
+
+.connect {
+	font-size: 50px;
+}
+
+.contact, li {
+	font-size: 25px;
+}
+
+.links {
+	font-size: 50px;
 }
 
 /* Twitter */
