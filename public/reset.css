@@ -32,6 +32,14 @@ img {
   max-height: 125px;
 }
 
+.profile-name {
+	height: 100vh;
+}
+
+.picture {
+	padding-top: 1%;
+}
+
 .img-circle {
   max-width: 200px;
   max-height: 300px;
@@ -52,9 +60,24 @@ img {
   font-size: 100px;
 }
 
+.demos {
+	height: 100vh;
+}
+
+.main {
+	/*height: 100vh;*/
+}
+
 .team {
 	margin-top: 25vh;
 	margin-bottom: 25vh;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	top: 0px;
+	left: 0px;
+	background: rgba(11, 60, 93, 0.50);
 }
 
 .video-tab {
@@ -81,8 +104,6 @@ img {
   /*background-color: #428bca;*/
   padding : 15px 15px;
 }
-
-
 
 .nav-pills.work {
   padding-left: 34%;
@@ -160,6 +181,10 @@ img {
   width: 6%;
   text-decoration: none;
   border-radius: 50%;
+}
+
+.contact-media {
+	height: 100vh;
 }
 
 .media {
