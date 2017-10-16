@@ -19,9 +19,9 @@ img {
 
 .profile-name {
   text-align: center;
-  padding-top: 20%;
+  padding-top: 25%;
   padding-bottom: 25%;
-  height: 100vh;
+  /*height: 100vh;*/
 }
 
 #alex {
@@ -58,12 +58,14 @@ img {
   padding-top: 5%;
   padding-bottom: 5%;
   z-index: 1;
-  height: 100vh;
+  /*height: 100vh;*/
   width: 100%;
   overflow: auto;
   top: 0px;
   left: 0px;
-  background: rgb(44, 62, 80);
+  /*background: rgb(44, 62, 80);*/
+  background-color: #fafafa;
+  color: #282c31;
 }
 
 .bio {
@@ -73,12 +75,12 @@ img {
 
 .demos {
   text-align: center;
+  color: fafafa;
 }
 
 #videos {
   margin-top: 3%;
   margin-bottom: 3%;
-  color: #2c3e50;
 }
 
 #exTab3 {
@@ -92,7 +94,7 @@ img {
 }
 
 #exTab3 .tab-content {
-  color : #2c3e50;
+  color : #fafafa;
   /*background-color: #428bca;*/
   padding : 15px 15px;
 }
