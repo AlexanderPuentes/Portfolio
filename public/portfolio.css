@@ -44,10 +44,8 @@ img {
   }
 }
 
-.main {
-  background-image: url();
-  background-size: cover;
-  color: white;
+.aboutme {
+  background-color: #fafafa;
 }
 
 .team {
@@ -59,7 +57,6 @@ img {
   overflow: auto;
   top: 0px;
   left: 0px;
-  /*background: rgb(44, 62, 80);*/
   background-color: #fafafa;
   color: #282c31;
 }
