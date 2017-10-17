@@ -24,10 +24,6 @@ img {
   /*height: 100vh;*/
 }
 
-#alex {
-
-}
-
 .profile-name, h1 {
   font-size: 100px;
 }
@@ -87,30 +83,14 @@ img {
   text-align: center;
 }
 
-#exTab3 .nav-pills > li > a {
-  /*border: 2px solid;*/
-  /*border-color: inherit;*/
-  border-radius: 25px;
-}
-
 #exTab3 .tab-content {
   color : #fafafa;
-  /*background-color: #428bca;*/
   padding : 15px 15px;
 }
 
 .nav-pills.work {
-  padding-left: 34%;
+  padding-left: 33%;
   text-align: center;
-}
-
-.btn {
-  /*border: 2px solid;*/
-  border-radius: 25px;
-}
-
-.btn.btn-default {
-  color: #2c3e50;
 }
 
 .contact {
@@ -176,14 +156,14 @@ img {
 
 .media {
   text-align: center;
-  background-color: #333;
+  background-color: #fafafa;
 }
 
-.container {
-  color: white;
+.links {
+  color: #282c31;
 }
 
 .container-fluid {
-  color: white;
+  color: #282c31;
   padding-bottom: 1%;
 }
