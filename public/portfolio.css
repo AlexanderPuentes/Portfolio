@@ -3,9 +3,18 @@ body {
   text-align: center;
 }
 
-img {
+.navbar-default {
+  /*background: transparent;*/
+  /*background-color: #292d32;*/
+}
+
+.profile-pic {
   width: 80%;
   filter: grayscale(1);
+}
+
+.wyncode {
+  width: 70%;
 }
 
 .bio {
@@ -17,14 +26,11 @@ padding-right: 0% !important;
   text-align: center;
   padding-top: 25%;
   padding-bottom: 25%;
-  /*height: 100vh;*/
   background-image: url(images/codingpic.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*-webkit-filter: grayscale(1);
-  filter: grayscale(1);*/
 }
 
 .profile-name, h1 {
@@ -33,7 +39,6 @@ padding-right: 0% !important;
 
 .fadein {
   animation: fadeInDown 3s;
-  /*text-align: center;*/
 }
 
 @keyframes fadeInDown {
@@ -55,7 +60,6 @@ padding-right: 0% !important;
   padding-top: 5%;
   padding-bottom: 5%;
   z-index: 1;
-  /*height: 100vh;*/
   width: 100%;
   overflow: auto;
   top: 0px;
@@ -65,7 +69,7 @@ padding-right: 0% !important;
 }
 
 .bio-container {
-padding-right: 5% !important;
+  padding-right: 5% !important;
 }
 
 .projects{
@@ -74,8 +78,6 @@ padding-right: 5% !important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /*-webkit-filter: grayscale(1);
-  filter: grayscale(1);*/
 }
 
 .demos {
@@ -196,5 +198,15 @@ padding-right: 5% !important;
 }
 
 .skills {
+  margin-top: 3%;
   background-color: #282c31 !important;
+}
+
+.icons {
+  width: 25%;
+  margin-top: 7%;
+}
+
+.progress{
+  margin-top: 10% !important;
 }
