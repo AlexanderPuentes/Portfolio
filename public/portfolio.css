@@ -4,17 +4,14 @@ body {
 }
 
 img {
-  max-height: 125px;
+  width: 80%;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 
-.img-circle {
-  max-width: 200px;
-  max-height: 300px;
-}
-
-.bio, li {
-  text-align: center;
-  list-style-type: none;
+.bio {
+padding-left: 0% !important;
+padding-right: 0% !important;
 }
 
 .profile-name {
@@ -22,6 +19,13 @@ img {
   padding-top: 25%;
   padding-bottom: 25%;
   /*height: 100vh;*/
+  background-image: url(images/codingpic.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*-webkit-filter: grayscale(1);
+  filter: grayscale(1);*/
 }
 
 .profile-name, h1 {
@@ -30,7 +34,7 @@ img {
 
 .fadein {
   animation: fadeInDown 3s;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 @keyframes fadeInDown {
@@ -95,6 +99,10 @@ img {
   text-align: center;
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+.connect, li {
+  list-style-type: none;
 }
 
 /* Twitter */
