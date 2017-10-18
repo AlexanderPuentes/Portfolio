@@ -5,7 +5,6 @@ body {
 
 img {
   width: 80%;
-  -webkit-filter: grayscale(1);
   filter: grayscale(1);
 }
 
@@ -68,6 +67,16 @@ padding-right: 0% !important;
 .bio {
   padding-left: 25%;
   padding-right: 25%;
+}
+
+.projects{
+  background-image: url(images/coffeecomp.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*-webkit-filter: grayscale(1);
+  filter: grayscale(1);*/
 }
 
 .demos {
