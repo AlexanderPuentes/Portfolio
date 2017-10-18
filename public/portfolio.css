@@ -64,9 +64,8 @@ padding-right: 0% !important;
   color: #282c31;
 }
 
-.bio {
-  padding-left: 25%;
-  padding-right: 25%;
+.bio-container {
+padding-right: 5% !important;
 }
 
 .projects{
