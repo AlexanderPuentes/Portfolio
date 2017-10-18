@@ -95,6 +95,16 @@ padding-right: 0% !important;
   text-align: center;
 }
 
+.tab-pane {
+  text-align: -webkit-center;
+  /*width: 80%;*/
+}
+
+.description {
+  width: 50%;
+  margin: 15px 0px 30px !important;
+}
+
 .contact {
   text-align: center;
   padding-top: 3%;
