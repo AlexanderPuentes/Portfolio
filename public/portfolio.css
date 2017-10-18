@@ -198,15 +198,22 @@ padding-right: 0% !important;
 }
 
 .skills {
-  margin-top: 3%;
   background-color: #39414a !important;
+}
+
+.tech {
+  margin-top: 5%;
 }
 
 .icons {
   width: 25%;
-  margin-top: 7%;
+  margin-top: 7.5%;
 }
 
 .progress{
   margin-top: 10% !important;
+}
+
+.row-5 {
+  margin-bottom: 5%;
 }
