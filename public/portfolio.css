@@ -95,18 +95,21 @@ padding-right: 0% !important;
 }
 
 #exTab3 .tab-content {
+  text-align: -webkit-center;
   color : #fafafa;
   padding : 15px 15px;
 }
 
-.nav-pills.work {
-  padding-left: 33%;
-  text-align: center;
-}
+.nav-center {
+  text-align: center;}
+  ul.nav {
+    display: inline-block;}
+    li {
+      display: inline}
+
 
 .tab-pane {
   text-align: -webkit-center;
-  /*width: 80%;*/
 }
 
 .description {
@@ -191,4 +194,8 @@ padding-right: 0% !important;
 .container-fluid {
   color: #282c31;
   padding-bottom: 1%;
+}
+
+.skills {
+  background-color: #282c31 !important;
 }
