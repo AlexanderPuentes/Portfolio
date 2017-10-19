@@ -93,12 +93,17 @@ padding-right: 0% !important;
 
 #exTab3 {
   text-align: center;
+  margin-bottom: 5%;
 }
 
 #exTab3 .tab-content {
   text-align: -webkit-center;
   color : #fafafa;
   padding : 15px 15px;
+}
+
+.stylewrite, .artpop, #forecast {
+  margin-bottom: 3%;
 }
 
 .nav-center {
