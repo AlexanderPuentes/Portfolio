@@ -121,6 +121,7 @@ padding-right: 0% !important;
 }
 
 .description {
+  text-align: center !important;
   width: 65%;
   margin: 15px 0px 30px !important;
 }
