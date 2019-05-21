@@ -131,6 +131,17 @@ padding-right: 0% !important;
   padding-bottom: 3%;
 }
 
+#form1 {
+  background-color: #39414a;
+  border: 1px solid #39414a;
+  border-radius: 7px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  align-content: center;
+  padding: 1% 5% 1% 5%;
+}
+
 .connect, li {
   list-style-type: none;
 }
