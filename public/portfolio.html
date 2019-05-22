@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/slate/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="portfolio.css">
   <meta charset="utf-8">
@@ -57,18 +58,18 @@
 
           <div class="picture col-xs-6">
             <div class="image-filter">
-              <img src="images/portfolio.jpg" class="profile-pic" alt="Profile Pic" width="" height="" />
+              <img src="images/portfolio.jpg" class="profile-pic wow zoomIn" alt="Profile Pic" width="" height="" />
             </div>
           </div>
           <br>
           <div class="bio-container col-xs-6">
-            <h3>About Me</h3>
-            <p align="left"> My name is Alexander Puentes and I am a Wyncode Academy alumni. I'm a Full Stack Developer with a demonstrated history of working in the professional training & banking industry. Skilled in Ruby, JavaScript, HTML, CSS, Ruby on Rails, Express, React.js, jQuery, Postgres, Redis, SQL, Git, Agile, REST, TDD, Algorithms, Pair Programming and MVC. Strong engineering professional with a Bachelor’s Degree focused in Humanities/Humanistic Studies from Florida State University. </p>
-            <p align="right">"Never stop learning" <br> - Auston Bunsen</p>
+            <h3 class="wow slideInDown">About Me</h3>
+            <p align="left" class="text-info wow slideInRight"> My name is Alexander Puentes and I am a Wyncode Academy alumni. I'm a Full Stack Developer with a demonstrated history of working in the professional training & banking industry. Skilled in Ruby, JavaScript, HTML, CSS, Ruby on Rails, Express, React.js, jQuery, Postgres, Redis, SQL, Git, Agile, REST, TDD, Algorithms, Pair Programming and MVC. Strong engineering professional with a Bachelor’s Degree focused in Humanities/Humanistic Studies from Florida State University. </p>
+            <p align="right" class="text-info wow slideInRight">"Never stop learning" <br> - Auston Bunsen</p>
           </div>
           <br>
           <div class="wyncode-container col-xs-6">
-            <img src="images/wyncode.png" class="wyncode" alt="Wyncode Academy">
+            <img src="images/wyncode.png" class="wyncode wow slideInRight" alt="Wyncode Academy">
           </div>
         </div>
       </div>
@@ -85,7 +86,7 @@
         </div>
       </div>
 
-      <div class="demos container">
+      <div class="demos container wow zoomIn">
         <div class="video-tab">
           <h2 id="videos">Projects</h2>
         </div>
@@ -129,7 +130,7 @@
       <div class="container" id="skills">
         <h2 class="tech">Skills</h2>
 
-        <div class="row-1 row">
+        <div class="row-1 row  wow slideInLeft">
           <div class="col-xs-4">
             <img src="images/HTMLicon.png" class="icons" alt="">
             <img src="images/CSSicon.png" class="icons" alt="">
@@ -143,7 +144,7 @@
           </div>
         </div>
 
-        <div class="row-2 row">
+        <div class="row-2 row wow slideInRight">
           <div class="col-xs-4">
             <img src="images/javascriptimage.png" class="icons" style="width: 20%" alt="">
             <img src="images/jqueryimage.png" class="icons" alt="">
@@ -156,7 +157,7 @@
           </div>
         </div>
 
-        <div class="row-3 row">
+        <div class="row-3 row wow slideInLeft">
           <div class="col-xs-4">
             <img src="images/rails.png" class="icons" alt="">
           </div>
@@ -168,7 +169,7 @@
           </div>
         </div>
 
-        <div class="row-4 row">
+        <div class="row-4 row wow slideInRight">
           <div class="col-xs-4">
             <img src="images/githubimage.png" class="icons" style="width: 30%"alt="">
             <img src="images/herokuimage.png" class="icons" style="width: 15%"alt="">
@@ -181,7 +182,7 @@
           </div>
         </div>
 
-        <div class="row-5 row">
+        <div class="row-5 row wow slideInLeft">
           <div class="col-xs-4">
             <img src="images/reactimage.png" class="icons" alt="">
           </div>
@@ -200,11 +201,11 @@
       <div class="contact-media bottom">
 
         <div class="contact container">
-          <h2 class="connect">Contact Me</h2>
+          <h2 class="connect wow slideInDown">Contact Me</h2>
 
           <br>
 
-          <form action="mailto:alexander.puen91@gmail.com" id="form1" method="post" enctype="text/plain">
+          <form action="mailto:alexander.puen91@gmail.com" class="wow flipInY" id="form1" method="post" enctype="text/plain">
             <fieldset>
 
               <div class="form-group">
@@ -245,10 +246,10 @@
 
         <div class="media">
           <div class="container">
-            <h2 class="links">Media</h2>
-            <a href="https://www.linkedin.com/in/alexander-puentes-49776b110/" class="fa linkedin"></a>
-            <a href="https://github.com/AlexanderPuentes" class="fa github"></a>
-            <a href="https://twitter.com/alexpuen20" class="fa twitter"></a>
+            <h2 class="links wow slideInDown">Media</h2>
+            <a href="https://www.linkedin.com/in/alexander-puentes-49776b110/" class="fa linkedin wow slideInLeft"></a>
+            <a href="https://github.com/AlexanderPuentes" class="fa github wow slideInUp"></a>
+            <a href="https://twitter.com/alexpuen20" class="fa twitter wow slideInRight"></a>
           </div>
           <div class="container-fluid text-center" id="copyright">
             <h6>2019 WYNCODE/ALEXANDER PUENTES</h6>
@@ -278,6 +279,26 @@
     });
   });
 
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+  <script>
+      var wow = new WOW(
+    {
+      boxClass:     'wow',      // animated element css class (default is wow)
+      animateClass: 'animated', // animation css class (default is animated)
+      offset:       0,          // distance to the element when triggering the animation (default is 0)
+      mobile:       true,       // trigger animations on mobile devices (default is true)
+      live:         true,       // act on asynchronously loaded content (default is true)
+      callback:     function(box) {
+        // the callback is fired every time an animation is started
+        // the argument that is passed in is the DOM node being animated
+      },
+      scrollContainer: null,    // optional scroll container selector, otherwise use window,
+      resetAnimation: true,     // reset animation on end (default is true)
+    }
+    );
+    wow.init();
   </script>
 
 </body>
