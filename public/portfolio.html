@@ -22,9 +22,6 @@
 
     <div class="profile-name" style="min-height:750px; max-height:100vh;">
       <div id="stars">
-        <div class="rocket">
-          <!-- <img src="images/rocket.png" class="rocketship" alt="rocket"> -->
-        </div>
         <div id="stars2">
           <div id="stars3">
             <div id="title">
@@ -214,7 +211,6 @@
               <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
               </div>
 
               <div class="form-group">
@@ -233,8 +229,6 @@
                 <div class="download resume">
                   <a href="images/AlexPuentesResume.pdf" class="btn btn-warning" download>Download Resume</a>
                 </div>
-                <!-- <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp"> -->
-                <!-- <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small> -->
               </div>
 
             </fieldset>
@@ -255,7 +249,7 @@
             <a href="https://twitter.com/alexpuen20" class="fa twitter wow slideInRight slow"></a>
           </div>
           <div class="container-fluid text-center wow fadeIn slower" id="copyright">
-            <h6>2019 WYNCODE/ALEXANDER PUENTES</h6>
+            <h6>2017-2019 DESIGNS BY BRIDGES</h6>
           </div>
         </div>
       </div>
@@ -291,15 +285,15 @@
       boxClass:     'wow',      // animated element css class (default is wow)
       animateClass: 'animated', // animation css class (default is animated)
       offset:       0,          // distance to the element when triggering the animation (default is 0)
-      // mobile:       true,       // trigger animations on mobile devices (default is true)
-      mobile:       false,       // trigger animations on mobile devices (default is true)
+      mobile:       true,       // trigger animations on mobile devices (default is true)
+      // mobile:       false,       // trigger animations on mobile devices (default is true)
       live:         true,       // act on asynchronously loaded content (default is true)
       callback:     function(box) {
         // the callback is fired every time an animation is started
         // the argument that is passed in is the DOM node being animated
       },
       scrollContainer: null,    // optional scroll container selector, otherwise use window,
-      resetAnimation: true,     // reset animation on end (default is true)
+      resetAnimation: false,     // reset animation on end (default is true)
     }
     );
     wow.init();
