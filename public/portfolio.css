@@ -10,7 +10,7 @@ body {
 
 .profile-pic {
   width: 70%;
-  background-color: white;
+  background-color: white !important;
   border-radius: 225px;
   filter: grayscale(2);
 }
