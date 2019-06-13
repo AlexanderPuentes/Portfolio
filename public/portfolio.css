@@ -10,7 +10,9 @@ body {
 
 .profile-pic {
   width: 70%;
-  filter: grayscale(1);
+  background-color: white;
+  border-radius: 225px;
+  filter: grayscale(2);
 }
 
 .wyncode {
@@ -73,6 +75,7 @@ padding-right: 0% !important;
 
 .bio-container {
   padding-right: 5% !important;
+  padding-left: 5% !important;
   color: white;
 }
 
