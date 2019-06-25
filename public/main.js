@@ -17,3 +17,10 @@ var wow = new WOW(
 );
 wow.init();
 // ANIMATION SCRIPT END
+
+// COLLAPSING RESPONSIVE NAVBAR
+
+$('.navbar-collapse a').click(function(){
+  $(".navbar-collapse").collapse('hide');
+});
+// COLLAPSING RESPONSIVE NAVBAR
