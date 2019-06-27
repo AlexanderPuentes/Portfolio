@@ -19,8 +19,3 @@ wow.init();
 // ANIMATION SCRIPT END
 
 // COLLAPSING RESPONSIVE NAVBAR
-
-// $('.navbar-nav>li>a').on('click', function(){
-//     $('.navbar-collapse').collapse('hide');
-// });
-// COLLAPSING RESPONSIVE NAVBAR
