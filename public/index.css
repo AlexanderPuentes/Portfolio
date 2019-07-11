@@ -140,10 +140,6 @@ body {
   margin-top: 10%;
 }
 
-/* .progress{
-  margin-top: 10% !important;
-} */
-
 .bg-info {
   color: black !important;
 }
@@ -199,19 +195,19 @@ body {
 }
 
 span#prog-3 {
-  border-color: #ff0f53 !important;
+  border-color: #00e2f9 !important;
 }
 
 span#prog-4 {
-  border-color: #ff0f53 !important;
+  border-color: #00e2f9 !important;
 }
 
 span#prog-5 {
-  border-color: #00e2f9 !important;
+  border-color: #ff0f53 !important;
 }
 
 span#prog-6 {
-  border-color: #00e2f9 !important;
+  border-color: #ff0f53 !important;
 }
 
 span#prog-7 {
@@ -271,6 +267,7 @@ span#prog-10 {
 /* This for loop creates the 	necessary css animation names
 Due to the split circle of progress-left and progress right, we must use the animations on each side.
 */
+
 .progress[data-percentage="10"] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards;
 }
